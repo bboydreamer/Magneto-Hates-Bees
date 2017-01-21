@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{715E4EBB-C4C0-DE4C-3509-FC3BBF05AC6D}") = "Google Day Dream Project 0", "Assembly-CSharp.csproj", "{C778E269-FD23-29FC-6E1B-CEE876AA23FF}"
+EndProject
+Project("{715E4EBB-C4C0-DE4C-3509-FC3BBF05AC6D}") = "Google Day Dream Project 0", "Assembly-CSharp-Editor.csproj", "{803819A9-E2E0-AF55-AB11-BF4B1392676C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C778E269-FD23-29FC-6E1B-CEE876AA23FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C778E269-FD23-29FC-6E1B-CEE876AA23FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C778E269-FD23-29FC-6E1B-CEE876AA23FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C778E269-FD23-29FC-6E1B-CEE876AA23FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803819A9-E2E0-AF55-AB11-BF4B1392676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803819A9-E2E0-AF55-AB11-BF4B1392676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803819A9-E2E0-AF55-AB11-BF4B1392676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803819A9-E2E0-AF55-AB11-BF4B1392676C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
