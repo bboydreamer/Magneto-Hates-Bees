@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1D056C4A-C77B-029E-B80E-A4AE5D6A3C77}") = "Configuring Daydream", "Assembly-CSharp.csproj", "{180E7FC6-C2AD-B616-58C5-59CFF8AC24EA}"
+EndProject
+Project("{1D056C4A-C77B-029E-B80E-A4AE5D6A3C77}") = "Configuring Daydream", "Assembly-CSharp-Editor.csproj", "{0966D874-8DAF-1585-A8CF-73C84B013B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180E7FC6-C2AD-B616-58C5-59CFF8AC24EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180E7FC6-C2AD-B616-58C5-59CFF8AC24EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180E7FC6-C2AD-B616-58C5-59CFF8AC24EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180E7FC6-C2AD-B616-58C5-59CFF8AC24EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0966D874-8DAF-1585-A8CF-73C84B013B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0966D874-8DAF-1585-A8CF-73C84B013B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0966D874-8DAF-1585-A8CF-73C84B013B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0966D874-8DAF-1585-A8CF-73C84B013B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
