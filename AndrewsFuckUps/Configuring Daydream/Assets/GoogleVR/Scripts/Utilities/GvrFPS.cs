@@ -47,7 +47,6 @@ public class GvrFPS : MonoBehaviour {
     float currentFPS = 1.0f / deltaTime;
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
-    textField.text = string.Format(DISPLAY_TEXT_FORMAT,
-        msf.ToString(MSF_FORMAT), Mathf.RoundToInt(fps));
+	textField.text = GvrController.Accel.ToString ();
   }
 }

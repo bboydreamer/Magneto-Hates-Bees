@@ -17,6 +17,11 @@ public class StingerScript : MonoBehaviour {
 	private bool swordIsActive = false;
 	private bool isFrozen = false;
 
+
+	private bool incoming = true;
+	private bool beingHeld = false;
+	private bool shotBack = false;
+
 	void Start() {
 
 		//teleportStinger ();
@@ -50,12 +55,21 @@ public class StingerScript : MonoBehaviour {
 	}
 		
 	public void downClickHandler(){
-		if (!swordIsActive) {
-			teleportStinger ();
+		if (incoming && !beingHeld && !shotBack) {
+			//teleportStinger ();
+
 			swordIsActive = true;
 		}
 	}
-		
+
+
+	void attractStinger(){
+		transform.LookAt (playerTransform, new Vector3(0,1,0));
+		float step = 10 * Time.deltaTime;
+		transform.position = Vector3.MoveTowards (transform.position, playerTransform.position, step);
+	}
+
+
 
 	public void teleportStinger(){
 		stingerTeleportAnimation.GetComponent<ParticleSystem>().Play (); 
@@ -63,4 +77,6 @@ public class StingerScript : MonoBehaviour {
 		swordTeleportAnimation.GetComponent<ParticleSystem> ().Play ();
 		sword.SetActive (true);
 	}
+
+
 }

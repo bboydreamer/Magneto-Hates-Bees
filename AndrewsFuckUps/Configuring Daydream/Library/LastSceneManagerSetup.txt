@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GoogleVR/Demos/Scenes/ScrollingUIDemo.unity
+- path: Assets/GoogleVR/Demos/Scenes/Swatter.unity
   isLoaded: 1
   isActive: 1
